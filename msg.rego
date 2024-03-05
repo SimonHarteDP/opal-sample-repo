@@ -1,5 +1,5 @@
 package app.msg
 
-main := msg if {
+main := msg {
     msg := sprintf("Hello, %v!", [input.user])
 }
