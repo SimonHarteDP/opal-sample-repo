@@ -1,9 +1,6 @@
 package app.msg
 
-main := msg {
+main {
     msg := sprintf("Hello, %v!", [input.user])
 }
 
-validate_length := msg {
-   len(input.user) > 4
-}
